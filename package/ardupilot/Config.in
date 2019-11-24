@@ -1,0 +1,7 @@
+config BR2_PACKAGE_ARDUPILOT
+	bool "ardupilot"
+	default y
+	help
+		ArduPilot
+		
+		http://ardupilot.org

@@ -2302,6 +2302,12 @@ menu "System tools"
 	source "package/xvisor/Config.in"
 endmenu
 
+menu "Drone and Automotive"
+	source "package/agl/Config.in"
+	source "package/ardupilot/Config.in"
+	source "package/px4/Config.in"
+endmenu
+
 menu "Text editors and viewers"
 	source "package/ed/Config.in"
 	source "package/joe/Config.in"
